@@ -1,0 +1,19 @@
+{
+  "name": "hello_alexa",
+  "version": "1.0.0",
+  "description": "Simple alexa skill",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "alexa",
+    "voice",
+    "nlp"
+  ],
+  "author": "caleb logan",
+  "license": "ISC",
+  "dependencies": {
+    "alexa-sdk": "^1.0.7"
+  }
+}

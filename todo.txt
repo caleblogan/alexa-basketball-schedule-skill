@@ -1,0 +1,5 @@
+[*] get sample code up and running
+[*] figure out what the how to skill will be about
+[*] get lambda / s3 deployment working
+[] get intent schema done
+[] publish skill
