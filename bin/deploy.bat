@@ -1,8 +1,5 @@
 @echo off
 
-::build nba_team_names.json
-call node ./bin/generate_name_json.js
-
 ::zip project
 del ./bin/dist.zip
 call "C:\Program Files\7-Zip\7z" a ./bin/dist.zip ./src/* ./node_modules
