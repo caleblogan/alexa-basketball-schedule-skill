@@ -1,7 +1,7 @@
 {
   "name": "hello_alexa",
   "version": "1.0.0",
-  "description": "Simple alexa skill",
+  "description": "Alexa skill to get the upcomming basketball games",
   "main": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +15,9 @@
   "license": "ISC",
   "dependencies": {
     "alexa-sdk": "^1.0.7"
+  },
+  "devDependencies": {
+    "alexa-utterances": "^0.2.1",
+    "request": "^2.81.0"
   }
 }

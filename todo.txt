@@ -1,5 +1,13 @@
-[*] get sample code up and running
-[*] figure out what the how to skill will be about
-[*] get lambda / s3 deployment working
-[] get intent schema done
-[] publish skill
+// Skill gets the next 10 games on the teams schedule and reads them out
+[*] create function to build the schedule text
+[*] create function to get the next 5 games for a team with nba api
+[*] bug when dates are < 10 it messes with ssml
+[*] fix date handling (all times are pacific since alexa doesnt give user timezone)
+[*] add pm and am to time
+[*] project cleanup
+[] add to github
+
+
+
+BUGS:
+[] nets/knicks/next get mixed up

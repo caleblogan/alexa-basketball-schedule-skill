@@ -1,9 +1,29 @@
 {
   "intents": [
-    {"intent": "RecipeIntent", "slots": [{"name" : "Item", "type": "LIST_OF_ITEMS"}]},
-    {"intent": "AMAZON.RepeatIntent"},
-    {"intent": "AMAZON.HelpIntent"},
-    {"intent": "AMAZON.StopIntent"},
-    {"intent": "AMAZON.CancelIntent"}
+    {
+      "intent": "GetScheduleIntent",
+      "slots": [
+        {
+          "name": "Team",
+          "type": "AMAZON.SportsTeam"
+        },
+        {
+          "name": "City",
+          "type": "AMAZON.US_CITY"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.RepeatIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
   ]
 }
