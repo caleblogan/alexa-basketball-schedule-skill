@@ -5,7 +5,7 @@
 [*] fix date handling (all times are pacific since alexa doesnt give user timezone)
 [*] add pm and am to time
 [*] project cleanup
-[] add to github
+[*] add to github
 
 
 
